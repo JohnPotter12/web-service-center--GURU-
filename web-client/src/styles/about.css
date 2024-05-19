@@ -1,0 +1,28 @@
+.container {
+  padding: 20px;
+}
+
+h1,
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}

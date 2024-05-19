@@ -1,0 +1,49 @@
+.connectUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* background-color: #f0f0f0; */
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 9999;
+}
+
+.container {
+  /* text-align: center; */
+}
+
+.round-button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  /* position: fixed;
+        bottom: 20px;
+        right: 50px;
+        z-index: 9999; */
+}
+
+.round-button:hover {
+  background-color: #45a049;
+}
+
+.round-button:active {
+  background-color: #3e8e4117;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.chat-close {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
